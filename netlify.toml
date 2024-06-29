@@ -1,0 +1,3 @@
+﻿[[functions]]
+path = "netlify-functions/my-csharp-api"
+runtime = "netlify-csharp"

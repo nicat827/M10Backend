@@ -1,3 +1,10 @@
-[[functions]]
-path = "netlify-functions/my-csharp-api"
-runtime = "netlify-csharp"
+[build]
+  functions = "netlify-functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[functions.my-csharp-api]
+  path = "netlify-functions/my-csharp-api"
